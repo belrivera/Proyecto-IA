@@ -1,0 +1,17 @@
+# Datos crudos del RNAC (297 MB, supera el límite de GitHub y puede contener datos personales)
+RNAC*.xlsx
+
+# Caché regenerable del modelo
+modelo_metricas/cache/
+
+# Python
+__pycache__/
+*.pyc
+
+# PDF de artículos con derechos de autor (repo público): las referencias están en la bibliografía
+articulos/*.pdf
+
+# Archivos temporales de Office / sistema
+~$*
+desktop.ini
+Thumbs.db
